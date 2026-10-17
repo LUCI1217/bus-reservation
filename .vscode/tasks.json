@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "npm.cmd run dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "label": "Start OmniBus Development Server",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "type": "shell",
+      "command": "npm.cmd run build",
+      "label": "Build OmniBus Production Bundle",
+      "problemMatcher": []
+    }
+  ]
+}
